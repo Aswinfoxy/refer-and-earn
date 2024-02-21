@@ -9,7 +9,11 @@ body {
   margin-top: 50px;
 }
 
-.input-boxes {
+h1 {
+  font-size: 36px;
+}
+
+.form-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,22 +37,39 @@ button {
   cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}
+
 #code-box {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
 
-#generated-code {
+.code-container {
+  text-align: center;
+}
+
+.code {
   font-size: 24px;
-  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
 }
 
-.user-info {
-  margin-top: 20px;
+.credentials {
+  color: silver;
+  font-size: 16px;
 }
 
-.user-info p {
-  font-size: 10px;
-  color: lightgrey;
+.credentials span {
+  display: block;
+}
+
+#email-display {
+  float: right;
+}
+
+#password-display {
+  float: left;
 }
