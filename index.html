@@ -9,18 +9,20 @@
 <body>
   <div class="container">
     <h1>REFER AND EARN💸💸</h1>
-    <div class="input-boxes">
+    <div class="form-box">
       <input type="text" placeholder="Name" id="name">
       <input type="email" placeholder="Email" id="email">
       <input type="password" placeholder="Password" id="password">
       <button onclick="login()">Login</button>
     </div>
     <div id="code-box" class="hidden">
-      <h2>Your Code</h2>
-      <div id="generated-code">ABC123</div>
-      <div class="user-info">
-        <p>Email: <span id="user-email"></span></p>
-        <p>Password: <span id="user-password"></span></p>
+      <h2>Your code</h2>
+      <div class="code-container">
+        <div class="code">4hY78lP3tE</div>
+        <div class="credentials">
+          <span>Email: <span id="email-display"></span></span>
+          <span>Password: <span id="password-display"></span></span>
+        </div>
       </div>
     </div>
   </div>
